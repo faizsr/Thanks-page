@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100&display=swap');
+
+*{
+    font-family: 'Jost', sans-serif; 
+}
+
+.container{
+    display: block;
+    text-align: center;
+    margin-top: 23vh;
+}
+
+.container img{
+    width: 10%;
+}
+
+.container h1{
+   margin: 1rem;
+   font-size: 2.3rem;
+}
+
+.container p{
+    font-size: 1rem;
+}
+
+
+.container a{
+    background: linear-gradient(341deg, rgba(93,140,195,1) 16%, rgba(83,185,207,1) 37%, rgba(29,253,204,1) 78%, rgba(11,255,202,1) 83%, rgba(29,253,204,1) 98%);
+    border-radius: 7px;
+    border: none;
+    padding: 4px 10px 4px 10px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+}
+
+
+.container a:hover{
+    color: black;
+    transition: 0.6s;
+}
+
+
+@media (max-width: 1200px) {
+    .container h1{
+        margin: 1rem;
+        font-size: 3rem;
+     }
+     
+     .container p{
+         font-size: 2rem;
+         margin-bottom: 1.5em;
+     }
+
+     .container img{
+        width: 20%;
+    }
+
+    .container a{
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width: 780px) {
+    .container h1{
+        margin: 1rem;
+        font-size: 2.4rem;
+     }
+     
+     .container p{
+         font-size: 1.5rem;
+         margin-bottom: 1em;
+     }
+
+     .container img{
+        width: 20%;
+    }
+
+    .container a{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 450px) {
+    .container{
+        margin-top: 30vh;
+    }
+
+    .container h1{
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0.2rem;
+        font-size: 1.8rem;
+     }
+     
+     .container p{
+         font-size: 1.2rem;
+         margin-bottom: 1em;
+     }
+
+     .container img{
+        width: 20%;
+    }
+
+     .container a{
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 380px) {
+    .container h1{
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0.2rem;
+        font-size: 1.6rem;
+     }
+}
